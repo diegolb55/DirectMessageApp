@@ -1,0 +1,89 @@
+
+
+.sidebar {
+    background: rgb(34, 34, 50);
+    color: white;
+    height: 100vh;
+    width: auto;
+    position: relative;
+}
+
+.uinfo {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.avatar {
+    display: block;
+    border-radius: 100%;
+    height: 3rem;
+    margin-left: 10px;;
+}
+.profilePic {
+    border: 2px solid white;
+    border-radius: 100%;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-left: 30px;
+}
+.uinfo p {
+    margin: 0 20px;
+}
+
+.i {
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    font-size: 1.5rem;
+    color: red;
+}
+.addbtn {
+    height: 6vh;
+    margin: 2vh auto;
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+    display: block;
+}
+.addbtn:hover {
+    opacity: .7;
+}
+.addbtn:active {
+    opacity: .5;
+}
+
+
+
+.chatBox {
+    overflow-y: scroll;
+    height: 80vh;
+    flex-grow: 1;
+    width: 100%;
+
+}
+.chatBox::-webkit-scrollbar {
+    display: none;
+}
+
+.cinfo {
+    border-bottom: 2px solid rgb(255, 235, 235);
+    height: 81px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.cinfo:hover{
+    background: rgb(69, 69, 99);
+}
+
+.cinfo p {
+    font-size: .7rem;
+    margin: 0 5px
+}
+.cavatar {
+    font-size: 2rem;
+    border-radius: 100%;
+    color: rgb(186, 156, 156);
+    margin-left: 20px;
+}
